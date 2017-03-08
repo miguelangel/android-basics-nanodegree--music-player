@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dirigendo.musicplayer.Songs">
+
+    <TextView
+        style="@style/ActivityDescriptionTextView"
+        android:text="@string/activity_songs_description" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Album details -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/album_cover"
+                    style="@style/AlbumSelectedCoverImageView"
+                    android:src="@drawable/nirvana__incesticide" />
+
+                <TextView
+                    android:id="@+id/album_title"
+                    style="@style/AlbumTitleTextView"
+                    android:layout_toRightOf="@id/album_cover"
+                    android:text="Incesticive" />
+
+                <TextView
+                    android:id="@+id/album_artist"
+                    style="@style/AlbumArtistTextView"
+                    android:layout_below="@id/album_title"
+                    android:layout_toRightOf="@id/album_cover"
+                    android:text="Nirvana" />
+
+                <TextView
+                    style="@style/AlbumMoreDetailsTextView"
+                    android:layout_alignBottom="@id/album_cover"
+                    android:layout_toRightOf="@id/album_cover"
+                    android:text="1992 - 13 songs - 39:56" />
+            </RelativeLayout>
+
+            <!-- First song -->
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="1" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Dive" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="3:54" />
+            </LinearLayout>
+
+            <!-- Second song -->
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="2" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Silver" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="2:13" />
+
+            </LinearLayout>
+
+            <!-- Third song -->
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="3" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Been A Song" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="1:54" />
+
+            </LinearLayout>
+
+            <!-- Forth song -->
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="4" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Turn around" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="2:18" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="5" />
+                M
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Molly's Lips" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="1:52" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="6" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Song Of A Gun" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="2:49" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="7" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Turn around" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="2:18" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="8" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Polly" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="1:47" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="9" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Beeswax" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="2:49" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="10" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Mexican Seafood" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="1:54" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="11" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Hairspary Queen" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="4:13" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="12" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Big Long Now" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="5:02" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SongLinearLayout">
+
+                <TextView
+                    style="@style/SongNumberTextView"
+                    android:text="13" />
+
+                <TextView
+                    style="@style/SongTitleTextView"
+                    android:text="Aneurysm" />
+
+                <TextView
+                    style="@style/SongLengthTextView"
+                    android:text="4:37" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#8BC34A">
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/play_button"
+            android:src="@drawable/skip_previous" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/play_button"
+            android:src="@drawable/skip_next" />
+    </RelativeLayout>
+</LinearLayout>
