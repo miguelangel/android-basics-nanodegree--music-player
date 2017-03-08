@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dirigendo.musicplayer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ActivityDescriptionTextView"
+                android:text="@string/activity_main_description" />
+
+            <!-- First album -->
+            <ImageView
+                android:id="@+id/album_1"
+                style="@style/AlbumCoverImageView"
+                android:src="@drawable/nirvana__incesticide" />
+
+            <TextView
+                style="@style/AlbumTitleTextView"
+                android:text="Incesticive" />
+
+            <TextView
+                style="@style/AlbumArtistTextView"
+                android:text="Nirvana" />
+
+            <!-- Second album -->
+            <ImageView
+                android:id="@+id/album_2"
+                style="@style/AlbumCoverImageView"
+                android:src="@drawable/various_artists__play_classical_christmas" />
+
+            <TextView
+                style="@style/AlbumTitleTextView"
+                android:text="Play Classical Christmas" />
+
+            <TextView
+                style="@style/AlbumArtistTextView"
+                android:text="Various" />
+
+            <!-- Third album -->
+            <ImageView
+                android:id="@+id/album_3"
+                style="@style/AlbumCoverImageView"
+                android:src="@drawable/joaquin_sabina__19_dias_y_500_noches" />
+
+            <TextView
+                style="@style/AlbumTitleTextView"
+                android:text="19 días y 500 noches" />
+
+            <TextView
+                style="@style/AlbumArtistTextView"
+                android:text="Joaquín Sabina" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

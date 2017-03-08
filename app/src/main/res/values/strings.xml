@@ -1,0 +1,13 @@
+<resources>
+    <!-- Application name [CHAR LIMIT = NONE] -->
+    <string name="app_name">Music Player</string>
+
+    <!-- Activity main description [CHAR LIMIT = NONE] -->
+    <string name="activity_main_description">This activity displays the user list of albums. Click on the cover of the first album to jump to the album details.</string>
+
+    <!-- Activity title for Songs activity [CHAR LIMIT = NONE] -->
+    <string name="activity_title_songs">Album playlist</string>
+
+    <!-- Activity songs description [CHAR LIMIT = NONE] -->
+    <string name="activity_songs_description">This activity displays the playlist of the previously selected album. It also lets the user to select and listen any of the album songs.</string>
+</resources>
